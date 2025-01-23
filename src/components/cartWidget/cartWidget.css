@@ -1,0 +1,18 @@
+.cart-widget {
+    display: flex;
+}
+
+.cart-widget-img {
+    width: 60px;
+    height: 60px;
+    margin: auto 5px;
+}
+
+.cart-widget p {  display: inline-block;
+    margin: auto 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000; 
+    transition: transform 0.2s ease;
+  
+}
