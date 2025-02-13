@@ -1,0 +1,31 @@
+.item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item-list-title {
+  font-size: 34px;
+  font-weight: 900;
+  font-family: "Georgia", serif;
+  color: #600020;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #900c3f;
+  padding-bottom: 5px;
+}
+
+.item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

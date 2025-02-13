@@ -1,0 +1,20 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.cart h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #600020;
+  margin-bottom: 10px;
+}
+
+.cart p {
+  font-size: 24px;
+  color: #900c3f;
+}
