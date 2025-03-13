@@ -1,8 +1,6 @@
-# React + Vite
+# Bodega Farias - E-commerce de Vinos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al repositorio de **Bodega Farias**.  
+Este proyecto es una aplicación de comercio electrónico diseñada para la venta de vinos online. Aquí encontrarás un catálogo de productos, un sistema de carrito de compras, un proceso de checkout integrado con Firebase, y una interfaz intuitiva y elegante.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![E-commerce de Vinos](https://res.cloudinary.com/dxebfpyws/image/upload/v1741848266/vino_wlbq6f.jpg)
