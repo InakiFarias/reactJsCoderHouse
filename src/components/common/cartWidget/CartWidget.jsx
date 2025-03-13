@@ -1,6 +1,9 @@
+import { useContext } from "react";
+import { CartContext } from "../../../context/CartContext";
 import "./cartWidget.css";
 
-export default function CartWidget() {
+const CartWidget = () => {
+  const { getTotalQuantity } = useContext(CartContext);
   return (
     <div className="cart-container">
       <div className="cart-icon-wrapper">
@@ -9,8 +12,10 @@ export default function CartWidget() {
           alt="Carrito"
           className="cart-icon"
         />
-        <div className="cart-counter">3</div>
+        <div className="cart-counter">{getTotalQuantity()}</div>
       </div>
     </div>
   );
-}
+};
+
+export default CartWidget;

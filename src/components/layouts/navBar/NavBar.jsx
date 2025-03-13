@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import CartWidget from "../../common/cartWidget/CartWidget";
 import "./navBar.css";
 
-export default function NavBar() {
+const NavBar = () => {
   return (
     <nav className="nav-bar">
       <Link to="/">
@@ -23,4 +23,6 @@ export default function NavBar() {
       </Link>
     </nav>
   );
-}
+};
+
+export default NavBar;
