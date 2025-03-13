@@ -53,24 +53,7 @@ const CartContextProvider = ({ children }) => {
   };
 
   const finalizePurchase = () => {
-    Swal.fire({
-      title: "¿Finalizar compra?",
-      text: "Esta acción no se podrá deshacer",
-      icon: "question",
-      showCancelButton: true,
-      confirmButtonText: "Sí, finalizar",
-      cancelButtonText: "No, cancelar",
-    }).then((result) => {
-      if (result.isConfirmed) {
-        setCart([]);
-        Swal.fire({
-          icon: "success",
-          title: "Compra finalizada con éxito",
-          showConfirmButton: false,
-          timer: 1500,
-        });
-      }
-    });
+    setCart([]);
   };
 
   const getTotalAmount = () => {

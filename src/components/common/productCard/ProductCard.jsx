@@ -7,7 +7,7 @@ const ProductCard = ({ title, imgUrl, price, id }) => {
       <h3 className="product-card-title">{title}</h3>
       <img className="product-card-img" src={imgUrl} alt="" />
       <p className="product-card-price">${price}</p>
-      <Link to={`/product/${id}`}>
+      <Link to={`/item/${id}`}>
         <button className="product-details">Ver detalles</button>
       </Link>
     </div>
